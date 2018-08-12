@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_VBConsoleMenu.597952765.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="LibraryTest" t="IncludeRecursive">
+        <e p="LibraryTest.vbproj" t="IncludeRecursive" />
+        <e p="Program.vb" t="Include" />
+        <e p="TestMenu.vb" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="LibraryTest.AssemblyInfo.vb" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="VBConsoleMenu" t="IncludeRecursive">
+        <e p="AbstractMenu.vb" t="Include" />
+        <e p="MenuItem.vb" t="Include" />
+        <e p="VBConsoleMenu.vbproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="VBConsoleMenu.AssemblyInfo.vb" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="VBConsoleMenu.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
