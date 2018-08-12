@@ -41,7 +41,6 @@ Public Class TestSubMenu
         AddMenuItem(New MenuItem(0, "Exit current menu", action := Nothing).SetAsExitOption())
         AddMenuItem(New MenuItem(1, "Test sub menu item", Sub() 
             Console.WriteLine("Test sub menu item selected")
-            End Sub
-        ))
+            End Sub))
     End Sub
 End Class
