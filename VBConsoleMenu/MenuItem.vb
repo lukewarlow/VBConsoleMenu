@@ -47,11 +47,11 @@ Public Class MenuItem
         Else 
             _action?.Invoke()
         End If
-        Return IsExitOption
+        Return Not IsExitOption
     End Function
 
     Public Overrides Function Equals(obj As Object) As Boolean
-        If (obj.Equals(Me))
+        If (obj Is Me)
             Return True
         ElseIf (TypeOf obj IsNot MenuItem)
             Return False

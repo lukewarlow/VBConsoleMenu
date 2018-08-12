@@ -21,9 +21,9 @@
             UpdateMenuItems()
             Console.WriteLine()
             Console.WriteLine(Title)
-            For i = 0 To MenuItems.Count Step 1
+            For i = 0 To MenuItems.Count - 1 Step 1
                 If (MenuItems(i).IsVisible)
-                    Console.WriteLine(i + ". " + MenuItems(i).Description)
+                    Console.WriteLine($"{i}. {MenuItems(i).Description}")
                 End If
             Next
             
@@ -48,7 +48,6 @@
                 Console.WriteLine($"Invalid option. Option {input} is hidden.")
                 repeat = True
             End Try
-            
         End While
     End Sub
     
@@ -78,7 +77,7 @@
         Try
             Dim menuItem = New MenuItem(itemId)
             Dim index = MenuItems.IndexOf(menuItem)
-            MenuItems(index).Show()
+            MenuItems(index).Hide()
         Catch e As ArgumentOutOfRangeException
             Throw New ArgumentException($"Error hiding menu item. Menu item with ID {itemId} hasn't been added to this menu.")
         End Try
